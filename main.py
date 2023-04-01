@@ -4,8 +4,8 @@ import openai
 
 engine = "text-davinci-003"
 
-name = 'key.txt'
-name_api = 'key_api.txt'
+name = 'key'
+name_api = 'key_api'
 
 file = open(name, "r")
 file_api = open(name_api, "r")
